@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "open sans", sans-serif;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
+
+.nav {
+  padding: 0.2%;
+  background-color: black;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 10px 0 20px 20px;
+  padding-left: 20px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul li a img {
+  width: 25px;
+  padding-top: 15px;
+}
+
+.portada {
+  background-image: url(/assets/img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-shadow: 0px 3px 6px black;
+  text-align: right;
+  color: white;
+  padding: 10px 20px 0 0;
+}
+
+.portada h1 {
+  font-size: 60px;
+}
+
+.portada h3 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.reunion {
+  padding: 100px;
+}
+
+.reunion h2,
+p {
+  padding-top: 10px;
+}
+
+.proxima-charla {
+  background: #a4452c;
+  padding: 100px;
+  color: white;
+}
+
+.proxima-charla .wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.wrapper img {
+  width: 25%;
+}
+
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+}
+
+.wrapper img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eventos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.eventos article {
+  width: 25%;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+i {
+  color: white;
+  width: 30px;
+  padding-top: 10px;
+}
